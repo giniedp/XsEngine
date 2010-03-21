@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:template xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine">
+  
+  <x:content for="content">
+    <h1>
+      <x:get content="content" from="page"/>
+    </h1>
+  </x:content>
+</x:template>

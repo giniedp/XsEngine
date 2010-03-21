@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./engine.xsl" ?>
+<x:page xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine" uri="news-en.xml" template="index">
+  <x:define b=""/>
+  <x:content for="title">News</x:content>
+  <x:content for="teaser">This is the news section</x:content>
+  <x:content for="text">This is the news text</x:content>
+</x:page>

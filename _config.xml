@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:settings xmlns:x="xsl-layout-engine">
+  
+  <x:routes>
+    <x:route id="home" uri="index.xml" i18n="route/home"/>
+    <x:route id="news" uri="news.xml" i18n="route/news"/>
+  </x:routes>
+  
+  <x:assets>
+    <x:asset id=""><h1>This demonstrates an asset</h1></x:asset>
+  </x:assets>
+  
+  <x:i18n>
+    <route>
+      <home locale="de">Hauptseite</home>
+      <home locale="en">Home</home>
+      <news locale="de">Aktuelles</news>
+      <news locale="en">News</news>
+    </route>
+  </x:i18n>
+  
+</x:settings>

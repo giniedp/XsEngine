@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:template xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine">
+  
+  <x:content for="header">
+    <h1><x:get content="teaser" from="page"/></h1>
+  </x:content>
+  
+  <x:content for="body">
+    <h4><x:get content="text" from="page"/></h4>
+  </x:content>
+  
+  <x:content for="footer">
+    <small><x:get content="text" from="page"/></small>
+  </x:content>
+</x:template>

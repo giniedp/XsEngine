@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:layout xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine">
+  <html>
+    <head>
+      <title><x:get content="title" from="page"/></title>
+      <x:css src="style"/>
+    </head>
+    <body>
+      <div id="header">
+        <x:get content="header" from="template"/>
+      </div>
+      
+      <div id="container" >  
+        <div id="bg_top">
+          <div id="bg_bot">
+
+            <div id="container_left">
+              <x:import uri="templates/sitemap.xml"/>
+            </div>
+            
+            <div id="container_right">
+              <x:get content="body" from="template"/>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div id="footer">
+        <x:get content="footer" from="template"/>
+      </div>
+    </body>
+  </html>
+</x:layout>

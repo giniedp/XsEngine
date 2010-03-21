@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:content xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine">
+  <ul>
+    <li><x:route to="home"/></li>
+    <x:show-if defined="a" in="page">
+      <ul class="right">
+        <li><x:route to="home"/></li>
+        <li><x:route to="home"/></li>
+        <li><x:route to="home"/></li>
+        <li><x:route to="home"/></li>
+      </ul>
+    </x:show-if>
+    <li><x:route to="news"/></li>
+    <x:show-if defined="b" in="page">
+      <ul class="right">
+        <li><x:route to="news"/></li>
+        <li><x:route to="news"/></li>
+        <li><x:route to="news"/></li>
+        <li><x:route to="news"/></li>
+      </ul>
+    </x:show-if>
+    <li><x:link-to locale="en"/></li>
+    <li><x:link-to locale="de"/></li>
+  </ul>
+</x:content>

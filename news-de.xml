@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./engine.xsl" ?>
+<x:page xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine" uri="news-de.xml" template="index">
+  <x:define b=""/>
+  <x:content for="title">Aktuelles</x:content>
+  <x:content for="teaser">Das ist der Nachrichtenbereich</x:content>
+  <x:content for="text">Das ist der Nachrichtentext</x:content>
+</x:page>

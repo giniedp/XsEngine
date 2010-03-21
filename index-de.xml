@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="./engine.xsl" ?>
+<x:page xmlns="http://www.w3.org/1999/xhtml" xmlns:x="xsl-layout-engine" uri="index-de.xml">
+  <x:define a=""/>
+  <x:content for="title">Index</x:content>
+  <x:content for="teaser">Das ist der Indexbereich</x:content>
+  <x:content for="text">Das ist der Indextext</x:content>
+</x:page>

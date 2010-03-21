@@ -1,0 +1,194 @@
+body {
+  background:#fff;
+  margin:0px;
+  font:11px Tahoma
+}
+h1,h2,h3,h4,legend {
+  color:#000;
+  margin-top:0px;
+  font-weight:bold
+}
+h3 {
+  margin-top:10px
+}
+a {
+  color:#000;
+  text-decoration:none
+}
+a:hover {
+  text-decoration:underline
+}
+table {
+  width:100%
+}
+table th {
+  text-align:left
+}
+img {
+  border:none
+}
+#container {
+  width:980px;
+  margin:0px auto auto;
+  background: url(images/img02.jpg) repeat-y left top;
+  overflow:auto
+}
+#header {
+  width:980px;
+  height:80px;
+  margin:0px auto auto;
+  overflow:auto
+}
+
+#container #bg_top {
+  background: url(images/img01.jpg) no-repeat left top;
+  	margin: 0px;
+	padding: 0px;
+}
+#container #bg_top #bg_bot {
+  background: url(images/img03.jpg) no-repeat left bottom;
+  padding: 30px 40px 30px 30px;
+  overflow:auto
+}
+
+#container_left {
+  width:186px;
+  padding:0px 12px 0px 12px;
+  float:left
+}
+#container_left a,
+#container_left h3 {
+  color:#06458e
+}
+#container_left h3 {
+  margin-bottom:0px;
+  padding:0px 0px 5px 5px
+}
+#container_left ul {
+  margin:0px;
+  padding:0px;
+  width:180px
+}
+#container_left ul li ul {
+  margin:0px;
+  padding:0px;
+  padding-left:10px;
+  width:170px;
+}
+#container_left ul li {
+  list-style:none;
+  border-bottom:1px solid #92c5db
+}
+#container_left ul li a,
+#container_left ul li span {
+  padding:7px;
+  display:block
+}
+#container_left ul li:hover {
+  text-decoration:none;
+}
+
+
+#container_right {
+  float:right;
+  width:665px;
+  min-height: 300px;
+  padding:12px;
+  font:13px Arial;
+  line-height:150%;  
+}
+
+#footer {
+  width:980px;
+  height:83px;
+  background:transparent url("../../images/bg_footer.jpg") no-repeat;
+  color:#000;
+  text-align:right;
+  padding:50px 35px 0px 0px
+}
+#footer a {
+  margin:0px 3px 0px 3px
+}
+#footer a:hover {
+  text-decoration:underline
+}
+
+.center {
+  text-align:center
+}
+.right {
+  text-align:right
+}
+.submit input,.button input {
+  float:right;
+  margin-top:10px;
+  margin-right:10px
+}
+.strong,.bold {
+  font-weight:bold
+}
+#error {
+  background:#FFBABA;
+  color:red;
+  padding:5px;
+  border:1px solid red;
+  margin:10px 0px 10px 0px
+}
+div.input,p.input,div.radio,div.checkbox,.checkbox_action {
+  clear:left
+}
+div.input label,p.input label,div.radio label,div.checkbox label,.checkbox_action label {
+  font-weight:bold;
+  font-size:105%;
+  float:left;
+  width:125px;
+  margin-left:10px;
+  padding-top:6px
+}
+div.input label abbr,p.input label abbr,div.radio label abbr,div.checkbox label abbr,.checkbox_action label abbr {
+  margin-left:10px
+}
+div.input input,div.input select,p.input input,p.input select,div.radio input,div.radio select,div.checkbox input,div.checkbox select,.checkbox_action input,.checkbox_action select {
+  width:275px;
+  float:left
+}
+div.input li.error,p.input li.error,div.radio li.error,div.checkbox li.error,.checkbox_action li.error {
+  margin-top:15px;
+  margin-bottom:15px;
+  overflow:auto
+}
+div.input li.error .inline-errors,p.input li.error .inline-errors,div.radio li.error .inline-errors,div.checkbox li.error .inline-errors,.checkbox_action li.error .inline-errors {
+  margin-left:135px;
+  margin-bottom:5px
+}
+div.input li.error label,div.input li.error input,p.input li.error label,p.input li.error input,div.radio li.error label,div.radio li.error input,div.checkbox li.error label,div.checkbox li.error input,.checkbox_action li.error label,.checkbox_action li.error input {
+  margin-top:10px
+}
+div.input p.inline-hints,p.input p.inline-hints,div.radio p.inline-hints,div.checkbox p.inline-hints,.checkbox_action p.inline-hints {
+  clear:left;
+  margin:0px;
+  margin-left:135px
+}
+div.radio label,div.checkbox label,.checkbox_action label {
+  width:144px
+}
+div.radio input,div.checkbox input,.checkbox_action input {
+  width:16px;
+  float:right
+}
+.formtastic li {
+  list-style:none;
+  padding:0px
+}
+.clear {
+  clear:both
+}
+.mt {
+  margin-top:10px !important
+}
+fieldset {
+  margin-bottom:10px
+}
+legend {
+  font-size:14px
+}
